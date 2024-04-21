@@ -1,7 +1,6 @@
 "use client";
 
 import { IStaffInfo, StaffInfoCard } from "@/components/AboutUs/StaffInfoCard";
-import SearchSection from "@/components/Scan/ScanFilterSection";
 import { ScanLayout } from "@/components/layouts/ScanLayout";
 import { STAFF_INFO_DATA, getStaticURL } from "@/utils/constants";
 import Image from "next/image";
