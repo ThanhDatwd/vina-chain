@@ -1,0 +1,144 @@
+.text-muted {
+  color: #6c757d !important;
+  @apply text-opacity-80;
+}
+
+@media (min-width: 768px) {
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    @apply max-w-[1440px] mx-auto px-10;
+  }
+}
+
+a {
+  text-decoration: none;
+  @apply text-[#0784C3];
+}
+
+.link-dark {
+  color: #081d35;
+  @apply dark:text-white;
+}
+
+:hover.link-dark {
+  color: #0784c3 !important;
+}
+
+h4 {
+  @apply text-dark dark:text-white;
+}
+
+hr {
+  border-top: #e9ecef solid;
+  @apply border-t opacity-100;
+}
+
+.text-base {
+  font-size: 0.9375rem !important;
+}
+
+body {
+  font-size: 0.9375rem !important;
+}
+
+p {
+  @apply text-dark dark:text-white;
+}
+
+/* CONTACT PAGE */
+.contact-concept-header {
+  @apply flex flex-col gap-2 justify-center text-base text-black200 lg:w-[692px] text-center;
+}
+
+.contact-heading {
+  @apply text-[21px] lg:text-[22.5px] text-black200;
+}
+
+.contact-blue-text {
+  @apply text-sm text-[#0784c3];
+}
+
+.contact-blue-text-bold {
+  @apply text-sm font-bold text-[#066A9C];
+}
+
+.contact-blue-text-regular {
+  @apply text-sm font-normal text-[#066A9C];
+}
+
+/* TERMS AND PRIVACY */
+.style-term-privacy-text {
+  @apply text-[15px] text-dark900;
+}
+
+.style-term-privacy-text-content {
+  @apply mt-2 flex flex-col gap-4 style-term-privacy-text -ml-4;
+}
+
+.boxShadow {
+  box-shadow: 0 0.5rem 1.2rem rgb(189 197 209 / 20%);
+}
+
+.button-primary {
+  @apply p-3 bg-[#0784c3] hover:bg-[#0670a6] rounded-lg text-[15px] text-white uppercase;
+}
+
+/* Brand Assets Page */
+.content-heading {
+  @apply flex flex-col gap-2 text-[15px] text-dark900;
+}
+
+.line {
+  @apply my-10 border border-[#e9ecef];
+}
+
+.list-style-custom {
+  @apply flex flex-col gap-[6px] text-[15px] text-dark900 list-disc ml-8;
+}
+
+.list-circle {
+  list-style-type: circle;
+}
+
+.border-tag-address {
+  @apply text-[11px] text-black border border-[#e9ecef] py-[6px] px-2 rounded-full font-semibold;
+}
+
+.button-address {
+  @apply flex gap-1 items-center py-1 px-2 bg-[#0784c3] hover:bg-[#0670a6] rounded-md text-[12.5px] text-white;
+}
+
+.bg-theme {
+  @apply bg-white dark:bg-gray900;
+}
+
+.bg-theme-hover {
+  @apply hover:bg-gray-200 dark:hover:bg-gray600;
+}
+
+.bg-light {
+  @apply !bg-[#F8F9FA] dark:!bg-[#151515];
+}
+
+.bg-light-focus {
+  @apply focus:!bg-white dark:focus:!bg-black;
+}
+
+/* Table */
+
+.block-custom {
+  @apply bg-[#f8f9fa] py-[5px] px-2 rounded-md text-[11px] text-dark900 text-center italic border-[0.5px] border-[#0000001a];
+}
+
+.border,
+.border-t,
+.border-r,
+.border-b,
+.border-l {
+  @apply !border-[#e9ecef] dark:!border-[#222];
+}
